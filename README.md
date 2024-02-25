@@ -1,4 +1,4 @@
-# my-py-scripts (A small collection of python scripts)
+# my-py-scripts (a small collection of python scripts)
 
-### JSpy-Minify-v1.022024
+## JSpy-Minify-v1.022024
 This Python script is a simple program that is executed in the console. The program optimizes/compresses Javascript files with a few simple steps. First all comments will be removed. Here, however, I don't use a parser, but rather use regular expressions. In the next step, all blank lines are removed and then all spaces at the beginning of the line are removed. And finally all line breaks are removed. If the program has completed all steps without errors, a new file with the extension *.min.js will be created. This file is stored in the same directory as the input file. With this script I just wanted a simple and quick solution to make JS files a little less readable. I fully understand that I can also use tools like UglifyJS. But I just felt like getting to grips with Python again. And you can always use a simple tool like that, can't you?
